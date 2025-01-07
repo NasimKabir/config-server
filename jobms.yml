@@ -2,7 +2,7 @@ server:
   port: 8082
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/jobs?useSSL=false&serverTimezone=UTC
+    url: jdbc:postgresql://postgres:5432/jobs?useSSL=false&serverTimezone=UTC
     driver-class-name: org.postgresql.Driver
     username: postgres
     password: 1011
